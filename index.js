@@ -80,7 +80,7 @@ setTimeout(() => {
 
 function confirmFunction(){
     if(window.confirm("Wait, that’s sus. Look at that… we see the sun. But but.. What is that? SOLAR WINDS. This ain’t it, chef. Dodge the solar winds. Be careful of the switchbacks too queens! Stay safe out there girly pops")){
-        window.location.href='https://c1phan.github.io/phanily_solarWinds/';
+        window.location.href='https://c1phan.github.io/solarWinds/';
     }
     else{
         window.location.href='https://c1phan.github.io/dialogue2/'
