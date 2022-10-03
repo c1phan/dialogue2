@@ -78,6 +78,11 @@ setTimeout(() => {
     revealOneCharacter(characters);
 }, 600)
 
-if(!(Array.isArray(textLines) && textLines.length)){
-    console.log("I'm here!!!");
+function confirmFunction(){
+    if(window.confirm("Wait, that’s sus. Look at that… we see the sun. But but.. What is that? SOLAR WINDS. This ain’t it, chef. Dodge the solar winds. Be careful of the switchbacks too queens! Stay safe out there girly pops")){
+        window.location.href='https://c1phan.github.io/phanily_solarWinds/';
+    }
+    else{
+        window.location.href='https://c1phan.github.io/dialogue2/'
+    }
 }
